@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import { pwaInfo } from 'virtual:pwa-info';
+	import '../global.scss';
 
 	onMount(async () => {
 		if (pwaInfo) {
